@@ -2,32 +2,32 @@
 @import url(href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Mouse+Memoirs&family=Nunito+Sans&display=swap" rel="stylesheet");
 @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
 
-
 :root{
     --fondo: #FFD7F4;
-    --figura: #000000;
+    --figura: #ddd;
 }
 
 body {
-    font-family: 'Mouse Memoirs', sans-serif;
+    font-family: Mouse Memoirs, sans-serif;
     background: var(--fondo);
-    color: var(--figura);
+    color: rgba(52, 4, 64);
 }
 
 body.portada{
-    background:var(--fondo) url('images/portadaaa.png') right bottom no-repeat;
-    background-size:auto 90%;
-    min-height: 100vh;   
+        background: linear-gradient(130deg, rgba(255, 174, 244, 0.9), rgba(0, 0, 0, 0)), url('images/portadaaa.png') right bottom no-repeat fixed;
+        min-height: 100%; background-size:auto 90%;
 }
 
 a {
     font-weight: bold;
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(2, 1, 25, 0.5);
     text-decoration: none;
+
+
 }
 
 a:hover {
-    color: rgba(77, 175, 255, 1);
+    color: rgba(0, 0, 0, 0.8);
 }
 
 :hover{
@@ -36,11 +36,15 @@ a:hover {
 
 .active {
     text-decoration: underline;
-    color: #4dafff;
+    color: #A250EA;
 }
 
 main div#mapa{
     margin:1%;
     width:98%;
     height:60vh;
+}
+
+main canvas#grafico{
+    background:#E1B5E5; 
 }
