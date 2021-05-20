@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@import url(href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Mouse+Memoirs&family=Nunito+Sans&display=swap" rel="stylesheet");
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+:root{
+    --fondo: #FFD7F4;
+    --figura: #ddd;
+}
+
+body {
+    font-family: Mouse Memoirs, sans-serif;
+    background: var(--fondo);
+    color: rgba(52, 4, 64);
+}
+
+body.portada{
+        background: linear-gradient(130deg, rgba(255, 174, 244, 0.9), rgba(0, 0, 0, 0)), url('images/portadaaa.png') right bottom no-repeat fixed;
+        min-height: 100%; background-size:auto 90%;
+}
+
+a {
+    font-weight: bold;
+    color: rgba(2, 1, 25, 0.5);
+    text-decoration: none;
+
+
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+:hover{
+    transition: all ease .5s;
+}
+
+.active {
+    text-decoration: underline;
+    color: #A250EA;
+}
+
+main div#mapa{
+    margin:1%;
+    width:98%;
+    height:60vh;
+}
+
+main canvas#grafico{
+    background:#E1B5E5; 
+}
